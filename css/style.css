@@ -64,8 +64,9 @@ main{
     border-style: solid;
     padding: 6px;
     border-radius: 20%;
-
-    
+}
+li{ 
+    list-style-type: none;
 }
 
 
