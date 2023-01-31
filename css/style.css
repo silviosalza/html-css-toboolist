@@ -11,7 +11,8 @@
 /* logo position */
 header{
     background-color: white;
-    padding: 20px 0px;
+    padding: 20px 0;
+    margin-bottom: 20px;
     height: 150px;
 }
 
@@ -29,9 +30,8 @@ header img{
 /* /logo position */
 
 /* page color and dimension */
-main{
+body{
     background-color: rgb(235, 235, 235);
-    height: 1500px;
 
 }
 /* /page color and dimension */
@@ -40,7 +40,7 @@ main{
 .boxbutton{
     background-color: white;
     margin-left: 350px;
-    margin-top: 10px;
+    margin-top: 50px;
     padding: 20px;
     width: 1200px;
     border-radius: 10px 10px 0px 0px;
@@ -59,9 +59,9 @@ main{
     display: inline;
     background-color: rgb(106, 180, 255);
     color: white;
-    padding: 8px;
-    margin: 0 3px;
-    border-radius: 10px; 
+    padding: 8px 15px;
+    margin-left: 40px;
+    border-radius: 5px; 
 
 }
 .menusection{
@@ -70,12 +70,13 @@ main{
     display: inline;
     border-style: solid;
     border-width: 2px;
-    padding: 6px;
-    margin: 0 3px;
-    border-radius: 10px;
+    padding: 6px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
 }
 li{ 
     list-style-type: none;
+    margin-left: 2rem;
 }
 .checkmark{
     border: solid rgb(201, 255, 201);
@@ -89,7 +90,7 @@ li{
     border-radius: 50%;
 }
 .listitem{
-    margin:1rem 0rem 4rem 2rem
+    margin:1rem 0rem 4rem 1rem
 }
 
 
