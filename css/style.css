@@ -80,8 +80,7 @@ li{
 }
 .checkmark{
     border: solid rgb(201, 255, 201);
-    border-radius: 50%;
-    text-align: center;
+    border-radius:50%; 
     
     
 }
