@@ -90,8 +90,35 @@ li{
     border-radius: 50%;
 }
 .listitem{
-    margin:1rem 0rem 4rem 1rem
+    margin:1rem 0rem 4rem 1rem;
 }
-
+.listobject{
+    margin: 1rem 0rem;
+}
+.tag{
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 5px;
+    color: white;
+    font-weight: 500;
+}
+.blu{
+    background-color: rgb(162, 210, 255);
+}
+.purple{
+    background-color: rgb(202, 145, 255);
+}
+.orange{
+    background-color: rgb(255, 209, 124);
+}
+.green{
+    background-color: rgb(72, 133, 72);
+}
+.pea{
+    background-color: rgb(163, 198, 111);
+}
+.pink{
+    background-color: pink;
+}
 
 
