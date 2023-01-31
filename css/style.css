@@ -68,6 +68,18 @@ main{
 li{ 
     list-style-type: none;
 }
+.checkmark{
+    border: solid rgb(201, 255, 201);
+    border-radius: 50%;
+    
+}
+.cross{
+    border: solid rgb(255, 120, 120);
+    border-radius: 50%;
+}
+.listitem{
+    margin:1rem 0rem 4rem 2rem
+}
 
 
 
