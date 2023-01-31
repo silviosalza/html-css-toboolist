@@ -1,10 +1,18 @@
+/* RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* /RESET */
 
+/* logo position */
+header{
+    background-color: white;
+    padding: 20px 0px;
+
+}
 header img{
     margin: 20px;
     vertical-align: middle;
@@ -14,4 +22,51 @@ header img{
     display: inline;
     vertical-align: middle;
     font-size: 3rem;
+
 }
+/* /logo position */
+
+main{
+    background-color: lightgray;
+
+}
+.boxbutton{
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 350px;
+    padding: 20px;
+    width: 1200px;
+    
+}
+.boxlist{
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 350px;
+    padding: 20px;
+    width: 1200px;
+    
+
+
+}
+.menutask{
+    display: inline;
+    background-color: rgb(106, 180, 255);
+    color: white;
+    padding: 6px;
+    margin: 0 3px;
+    border-radius: 10%; 
+
+}
+.menusection{
+    color: gray;
+    border-color: gray;
+    display: inline;
+    border-style: solid;
+    padding: 6px;
+    border-radius: 20%;
+
+    
+}
+
+
+
