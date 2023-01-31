@@ -37,6 +37,7 @@ body{
 /* /page color and dimension */
 
 
+/* add section and add task background */
 .boxbutton{
     background-color: white;
     margin-left: 350px;
@@ -46,6 +47,10 @@ body{
     border-radius: 10px 10px 0px 0px;
     
 }
+/* add section and add task background */
+
+
+/*list background */
 .boxlist{
     background-color: white;
     margin-top: 5px;
@@ -55,6 +60,9 @@ body{
     border-radius: 0px 0px 10px 10px;
     
 }
+/*list background */
+
+/* task button */
 .menutask{
     display: inline;
     background-color: rgb(106, 180, 255);
@@ -64,6 +72,9 @@ body{
     border-radius: 5px; 
 
 }
+/* task button */
+
+/* section button */
 .menusection{
     color: gray;
     border-color: gray;
@@ -74,10 +85,16 @@ body{
     margin: 0 5px;
     border-radius: 5px;
 }
+/* section button */
+
+/* eliminate black dot and margin correction */
 li{ 
     list-style-type: none;
     margin-left: 2rem;
 }
+/* eliminate black dot and margin correction */
+
+/* check mark and cross style */
 .checkmark{
     border: solid rgb(201, 255, 201);
     border-radius:50%; 
@@ -88,12 +105,17 @@ li{
     border: solid rgb(255, 120, 120);
     border-radius: 50%;
 }
+/* check mark and cross style */
+
+
 .listitem{
     margin:1rem 0rem 4rem 1rem;
 }
 .listobject{
     margin: 1rem 0rem;
 }
+
+/* tag color and shape */
 .tag{
     border-radius: 10px;
     margin-left: 30px;
@@ -119,5 +141,6 @@ li{
 .pink{
     background-color: pink;
 }
+/* tag color and shape */
 
 
