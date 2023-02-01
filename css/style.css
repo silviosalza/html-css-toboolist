@@ -3,17 +3,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    
+
 }
 /* /RESET */
+
+/* GENERAL */
+body{
+    background-color: rgb(235, 235, 235);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* GENERAL */
 
 /* logo position */
 header{
     background-color: white;
-    padding: 20px 0;
+    padding: 0 20px;
     margin-bottom: 20px;
     height: 150px;
+    line-height: 150px;
 }
 
 header img{
@@ -29,21 +37,12 @@ header img{
 }
 /* /logo position */
 
-/* page color and dimension */
-body{
-    background-color: rgb(235, 235, 235);
-
-}
-/* /page color and dimension */
-
-
 /* add section and add task background */
 .boxbutton{
     background-color: white;
-    margin-left: 350px;
-    margin-top: 50px;
-    padding: 20px;
-    width: 1200px;
+    margin: 0 auto;
+    padding: 1.3rem;
+    width: 60%;
     border-radius: 10px 10px 0px 0px;
     
 }
@@ -53,22 +52,25 @@ body{
 /*list background */
 .boxlist{
     background-color: white;
-    margin-top: 5px;
-    margin-left: 350px;
-    padding: 20px;
-    width: 1200px;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    padding: 1.3rem;
+    width: 60%;
     border-radius: 0px 0px 10px 10px;
     
 }
 /*list background */
-
+button{
+    cursor: pointer;
+    border: 0;
+}
 /* task button */
 .menutask{
     display: inline;
     background-color: rgb(106, 180, 255);
     color: white;
-    padding: 8px 15px;
-    margin-left: 40px;
+    padding: 0.6rem 1rem;
+    margin-left: 4rem;
     border-radius: 5px; 
 
 }
@@ -80,9 +82,9 @@ body{
     border-color: gray;
     display: inline;
     border-style: solid;
-    border-width: 2px;
-    padding: 6px 15px;
-    margin: 0 5px;
+    border-width: 0.1rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
     border-radius: 5px;
 }
 /* section button */
@@ -96,14 +98,29 @@ li{
 
 /* check mark and cross style */
 .checkmark{
-    border: solid rgb(201, 255, 201);
-    border-radius:50%; 
+    border: 3px solid #559d55;
+    display: inline-block;
+    border-radius:0%;
+    height: 2rem; 
+    width: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.5rem;
+    color: #559d55;
+    
     
     
 }
 .cross{
-    border: solid rgb(255, 120, 120);
+    border: solid #ff7878;
+    display: inline-block;
+    border-radius:0%;
+    height: 2rem; 
+    width: 2rem;
     border-radius: 50%;
+    text-align: center;
+    line-height: 1.5rem;
+    color: #ff7878;
 }
 /* check mark and cross style */
 
@@ -118,11 +135,11 @@ li{
 /* tag color and shape */
 .tag{
     border-radius: 10px;
-    margin-left: 30px;
-    padding: 5px;
+    margin-left: 2rem;
+    padding: 0.3rem 1rem;
     color: white;
-    font-weight: 500;
 }
+
 .blu{
     background-color: rgb(162, 210, 255);
 }
